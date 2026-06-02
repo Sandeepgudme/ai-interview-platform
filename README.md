@@ -1,55 +1,84 @@
 # 🎤 GetAIInterview
 
-An AI-powered interview preparation platform built using the MERN stack. The application allows users to practice technical and HR interviews, upload resumes, and receive AI-generated interview questions with feedback through an interactive user experience.
+An AI-powered interview preparation platform built using the MERN stack. GetAIInterview helps job seekers practice technical and HR interviews through realistic AI-driven mock interviews, detailed performance analysis, and personalized feedback to improve interview readiness and confidence.
 
 ## 🚀 Features
 
-* User Authentication with Google Sign-In
-* Resume Upload Functionality
-* AI-Generated Interview Questions
-* Technical & HR Interview Practice
-* Interview Feedback System
-* Credit-Based Access Workflow
-* Responsive Modern UI
-* Smooth Animations using Framer Motion
-* Full-Stack MERN Architecture
+- 🔐 Secure Authentication with Google Sign-In (Firebase)
+- 📄 Resume Upload & Analysis
+- 🤖 AI-Generated Interview Questions
+- 🎙️ Voice-Based Interview Practice
+- 💬 Technical & HR Mock Interviews
+- 📊 Detailed Performance Reports
+- 📈 Skill Trend & Progress Tracking
+- 🧠 AI-Powered Feedback and Insights
+- 💳 Credit-Based Access System
+- 💰 Secure Payments with Razorpay
+- 📚 Interview History Management
+- 📱 Fully Responsive Modern UI
+- ✨ Smooth Animations with Framer Motion
+
+---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
 
-* React.js
-* Tailwind CSS
-* Framer Motion
-* Redux Toolkit
+- React.js
+- Tailwind CSS
+- Redux Toolkit
+- Framer Motion
+- Axios
+- React Router DOM
 
 ### Backend
 
-* Node.js
-* Express.js
-* MongoDB
-* Firebase Authentication
-* Multer
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Firebase Authentication
+- JWT Authentication
+- Multer
+- Razorpay Payment Gateway
 
-## 📚 Learning Outcomes
+### AI & Services
 
-Through this project, I gained hands-on experience with:
+- OpenRouter API
+- Gemini AI Models
+- Firebase Authentication
 
-* Building full-stack MERN applications
-* REST API integration
-* Authentication and protected routes
-* File upload handling
-* MongoDB database operations
-* State management using Redux
-* Responsive frontend development
-* Backend structuring and deployment workflow
+---
+
+## 📚 Key Functionalities
+
+### AI Interview Generation
+
+Generate personalized technical and HR interview questions based on the user's role, skills, and experience.
+
+### Voice Interview Experience
+
+Practice interviews using voice interactions for a realistic interview simulation.
+
+### AI Feedback Engine
+
+Receive detailed feedback on communication, technical understanding, confidence, and overall interview performance.
+
+### Credit-Based System
+
+Users can purchase interview credits through Razorpay and use them to access premium interview sessions.
+
+### Performance Tracking
+
+Track interview history, monitor progress, and identify areas for improvement over time.
+
+---
 
 ## ⚙️ Installation
 
 ### Clone Repository
 
 ```bash
-git clone https://github.com/KetakiKahure/GetAIInterview.git
+git clone https://github.com/Sandeepgudme/ai-interview-platform.git
 ```
 
 ### Frontend Setup
@@ -68,9 +97,67 @@ npm install
 npm start
 ```
 
-## 👩‍💻 Author
+### Environment Variables
 
-Ketaki Kahure
+Create `.env` files in both client and server directories and configure:
 
-* LinkedIn: https://linkedin.com
-* GitHub: https://github.com/KetakiKahure
+#### Client
+
+```env
+VITE_FIREBASE_API_KEY=
+VITE_RAZORPAY_KEY_ID=
+```
+
+#### Server
+
+```env
+MONGODB_URL=
+JWTSECRET=
+OPENROUTER_API_KEY=
+RAZORPAY_KEY_ID=
+RAZORPAY_KEY_SECRET=
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project provided practical experience with:
+
+- Full-Stack MERN Development
+- REST API Design & Integration
+- Firebase Authentication
+- Protected Routes & Authorization
+- Payment Gateway Integration (Razorpay)
+- AI Service Integration
+- File Upload Handling
+- MongoDB Database Management
+- Redux State Management
+- Responsive UI/UX Development
+- Production Deployment Workflow
+
+---
+
+## 🌟 Future Enhancements
+
+- Video-Based Mock Interviews
+- AI Resume Scoring
+- Company-Specific Interview Preparation
+- Real-Time Interview Analytics
+- Subscription Plans
+- Advanced Candidate Dashboard
+
+---
+
+## 👨‍💻 Author
+
+### Sandeep Gudme
+
+Full Stack Developer passionate about building scalable web applications and AI-powered products.
+
+- GitHub: https://github.com/Sandeepgudme
+- LinkedIn: https://www.linkedin.com/in/sandeep-gudme
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub.
