@@ -12,7 +12,7 @@ import Pricing from './pages/Pricing.jsx';
 import InterviewReport from './pages/InterviewReport.jsx';
 
 export const ServerUrl =
-  "https://ai-interview-platform-production-0862.up.railway.app";
+  import.meta.env.VITE_SERVER_URL;
 
 function App() {
   const dispatch = useDispatch();
