@@ -128,8 +128,8 @@ function Home() {
                         whileHover={{rotate:0,scale:1.06}}
                         className={`relative bg-white/5 backdrop-blur-md border border-white/10 rounded-3xl p-10 w-80 max-w-[90%] shadow-lg hover:shadow-2xl transition-all duration-300
                         ${index===0 ? "rotate-[-4deg]":""}
-                        ${index===1 ? "rotate-[3deg] md:-mt-6 shadow-xl":""}
-                        ${index===2 ? "rotate-[-3deg]":""}
+                        ${index===1 ? "rotate-3deg md:-mt-6 shadow-xl":""}
+                        ${index===2 ? "rotate--3deg":""}
                         `}
                     >
 
