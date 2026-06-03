@@ -1,3 +1,8 @@
+<img width="1164" height="584" alt="Screenshot 2026-06-03 130217" src="https://github.com/user-attachments/assets/8e11b185-3dc6-463a-9e73-c96cbfd0c0e2" />
+<img width="1904" height="979" alt="Screenshot 2026-06-03 130135" src="https://github.com/user-attachments/assets/90486c1d-dc86-4b32-a51c-b0c626cfedb7" />
+<img width="1919" height="969" alt="Screenshot 2026-06-03 130124" src="https://github.com/user-attachments/assets/91a8af1c-4772-4e6f-807a-9ba0199133f3" />
+<img width="1919" height="974" alt="Screenshot 2026-06-03 130055" src="https://github.com/user-attachments/assets/ab77383f-9547-4c34-8bdd-f73887e772ba" />
+
 # 🎤 GetAIInterview
 
 An AI-powered interview preparation platform built using the MERN stack. GetAIInterview helps job seekers practice technical and HR interviews through realistic AI-driven mock interviews, detailed performance analysis, and personalized feedback to improve interview readiness and confidence.
