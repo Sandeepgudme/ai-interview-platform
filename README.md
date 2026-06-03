@@ -161,7 +161,7 @@ This project provided practical experience with:
 Full Stack Developer passionate about building scalable web applications and AI-powered products.
 
 - GitHub: https://github.com/Sandeepgudme
-- LinkedIn: https://www.linkedin.com/in/sandeep-gudme
+- LinkedIn: https://www.linkedin.com/in/sandeep-gudme-867a40204/
 
 ---
 
